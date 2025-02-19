@@ -1,19 +1,32 @@
-# Mi Portafolio
+# Imprenta4.0
 
-¡Bienvenido a mi portafolio en línea! Soy Mauricio, estudiante universitario de Ingeniería en Sistemas apasionado por la programación y el desarrollo de software. Este repositorio contiene los archivos y el código fuente de mi sitio web personal, diseñado para presentar de manera efectiva mi experiencia, habilidades y proyectos a posibles empleadores y colaboradores.
+### 📚 **Descripción del Proyecto**
+Imprenta4.0 es un sistema administrativo diseñado para gestionar las operaciones de una imprenta moderna, ofreciendo soluciones eficientes para la administración de empleados, pedidos y procesos internos. Con un enfoque en la automatización y la mejora continua, este sistema se convierte en una herramienta clave para la transformación digital en el sector.
 
-## Características Principales
+### 🚀 **Características**
+- **Gestión de empleados**: Formulario para agregar y modificar la información de los empleados.
+- **Dashboard**: Contadores y gráficas que visualizan el estado actual de la imprenta.
+- **Calendario**: Herramienta para organizar y visualizar eventos importantes.
+- **Autenticación**: Sistema de login y registro con un diseño moderno.
+- **Professional Design**: Diseño profesional para una empresa.
+- **Base de datos MySQL**: Almacenamiento seguro y eficiente de datos.
 
-- **Diseño Profesional:** Interfaz limpia y atractiva para una fácil navegación.
-- **Secciones Clave:** Detalles sobre mi educación, experiencia laboral, proyectos destacados y habilidades técnicas.
-- **Proyectos Destacados:** Muestra de algunos de mis proyectos más relevantes, con detalles sobre las tecnologías utilizadas.
-- **Habilidades Técnicas:** Lista detallada de mis habilidades en el ámbito de la Ingeniería en Sistemas.
-- **Contacto:** Información de contacto para posibles oportunidades y colaboraciones.
+### 🛠️ **Tecnologías Utilizadas**
+- **Lenguajes**: PHP, JavaScript, HTML5, CSS3
+- **Frameworks**: Tailwind CSS, MySQL Workbench
+- **Entorno de desarrollo**: Visual Studio Code
 
-## Cómo Ver el Portafolio
-
-Puedes acceder a mi portafolio en línea apretando el boton de aqui abajo. ¡Espero que encuentres interesante mi trabajo y estoy abierto a recibir comentarios y sugerencias!
-
----
-
-[![Mi Portafolio](https://img.shields.io/badge/Mi%20Portafolio-purple)](https://mau312.github.io/)
+### 🗂️ **Estructura del Proyecto**
+```bash
+Imprenta4.0/
+│
+├── /bd               # Scripts y modelos de la base de datos
+├── /config           # Configuraciones generales
+├── /controllers       # Lógica del negocio
+├── /models           # Clases y conexión a la base de datos
+├── /views            # Vistas PHP, templates con includes
+│   ├── /assets       # Recursos estáticos (imágenes, estilos, scripts)
+│   │   ├── /fragments   # Fragmentos de HTML reutilizables
+│   │   ├── /javascript   # Archivos JavaScript
+├── /plugins          # Plugins y bibliotecas adicionales
+└── README.md     
